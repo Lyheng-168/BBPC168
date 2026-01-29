@@ -97,4 +97,18 @@ body{
     }
 
 }
+@media screen and (max-width: 470px) { 
+   
+    .navbar a{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 390px) { 
+   
+    .navbar a{
+        font-size: 8px;
+    }
+
+}
 
