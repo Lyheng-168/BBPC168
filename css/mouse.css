@@ -1,0 +1,105 @@
+.title{
+    text-align: center;
+    color: #616161;
+    margin-top: 140px;
+    margin-bottom: 50px;
+    
+}
+.brand-name h2{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 30px;
+    text-decoration: underline;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #616161;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.price {
+  font-weight: 700;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* GRID BASE */
+.product-grid {
+  display: grid;
+  gap: 20px;
+}
+
+
+@media (max-width: 599px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

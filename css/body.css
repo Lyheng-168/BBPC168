@@ -1,0 +1,42 @@
+.decripe h2{
+    text-align: center;
+}
+.decripe{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.decripe a{
+    background-color: rgb(161, 157, 157);
+    padding: 10px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 11px;
+    transition: all 0.5s;
+}
+.decripe a:hover{
+    background-color: green;
+}
+   .contact-hero{
+            height:200px;
+            background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+        }
+.contact-hero h1{
+            font-size:42px;
+        }
+        .contact-hero img{
+            border-radius: 50%;
+            margin: 20px;
+        }
