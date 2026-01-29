@@ -63,6 +63,9 @@ body{
     font-size: 30px;
     cursor: pointer;
  }
+    .contact-hero{
+        margin-top: 70px;
+    }
 @media screen and (max-width: 800px) { 
     .header{
         padding:4px 0px;
@@ -74,6 +77,9 @@ body{
         gap: 0px;
         padding: 1px;
     }
+    .contact-hero{
+        margin-top: 50px;
+    }
 
 }
 @media screen and (min-width: 801px) { 
@@ -81,8 +87,13 @@ body{
         display: none;
         
     }
-    .contact-hero{
-        margin-top: 50px;
+    
+
+}
+@media screen and (max-width: 540px) { 
+   
+    .navbar a{
+        font-size: 14px;
     }
 
 }
